@@ -8,7 +8,7 @@ class ThemeToggle extends Component {
     const { toggleTheme } = this.context
 
     return (
-      <button onClick={toggleTheme}>Toggle Theme</button>
+      <button onClick={toggleTheme} style={{ cursor: "pointer" }}>Toggle Theme</button>
     )
   }
 }

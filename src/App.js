@@ -8,13 +8,13 @@ import AuthContextProvider from './contexts/AuthContext'
 function App() {
   return (
     <div className="App">
-      <AuthContextProvider>
-        <ThemeContextProvider>
+      <ThemeContextProvider>
+        <AuthContextProvider>
           <Navbar />
           <BookList />
           <ThemeToggle />
-        </ThemeContextProvider>
-      </AuthContextProvider>
+        </AuthContextProvider>
+      </ThemeContextProvider>
     </div>
   )
 }
