@@ -1,6 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Context App
+This is a simple proof of concept application demonstrating React's new Context API and Hooks.
+
+A deployed version of the app and online code editor to play around with the codebase can be found [here](https://codesandbox.io/s/github/bmuthoga/contextapi)
+
+Below is a preview of how it looks:
+
+<img src="https://i.ibb.co/XtBgrBM/context-app.gif" width="300" height="200" alt="booklist-app" />
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
